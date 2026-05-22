@@ -1,4 +1,4 @@
-Pada praktikum Sistem Digital kali ini, kegiatan berfokus pada perancangan dan simulasi rangkaian BCD (Binary Coded Decimal) to 7-segment menggunakan platform Tinkercad. Tujuan utama dari modul ini adalah untuk memahami cara kerja decoder BCD to 7-segment serta mengamati secara langsung bagaimana input berupa kode biner dapat diubah menjadi tampilan angka desimal yang dapat dibaca manusia pada sebuah layar penampil digital. 
+Pada praktikum Sistem Digital kali ini, kegiatan berfokus pada perancangan dan simulasi rangkaian BCD (Binary Coded Decimal) to 7-segment menggunakan platform Tinkercad. Tujuan utama dari modul ini adalah untuk memahami cara kerja decoder BCD to 7-segment serta mengamati secara langsung bagaimana input berupa kode biner dapat diubah menjadi tampilan angka desimal yang dapat dibaca manusia pada sebuah layar penampil digital.   
 
 Untuk membangun simulasi rangkaian ini, digunakan beberapa komponen utama kelistrikan digital, yaitu:
 	Sebuah DIP Switch (4-bit) yang berfungsi sebagai alat untuk memberikan variasi sinyal masukan atau input BCD. 
