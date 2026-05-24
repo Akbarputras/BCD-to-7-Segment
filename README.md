@@ -1,11 +1,18 @@
+<img width="899" height="420" alt="image" src="https://github.com/user-attachments/assets/77a81116-985c-4152-ada9-dc8521e572db" />
+
 Pada praktikum Sistem Digital kali ini, kegiatan berfokus pada perancangan dan simulasi rangkaian BCD (Binary Coded Decimal) to 7-segment menggunakan platform Tinkercad. Tujuan utama dari modul ini adalah untuk memahami cara kerja decoder BCD to 7-segment serta mengamati secara langsung bagaimana input berupa kode biner dapat diubah menjadi tampilan angka desimal yang dapat dibaca manusia pada sebuah layar penampil digital.   
 
-Untuk membangun simulasi rangkaian ini, digunakan beberapa komponen utama kelistrikan digital, yaitu:
+Untuk membangun simulasi rangkaian ini, digunakan beberapa komponen utama kelistrikan digital, yaitu: 
 	Sebuah DIP Switch (4-bit) yang berfungsi sebagai alat untuk memberikan variasi sinyal masukan atau input BCD. 
+
 	Komponen inti, yakni IC CD4511, yang berperan secara spesifik sebagai dekoder penerjemah sinyal BCD to 7-Seg. 
+
 	Layar 7-Segment Display dengan tipe Common Cathode yang bertugas menampilkan output akhir berupa digit angka. 
+
 	Empat buah resistor berukuran 1 KΩ yang dirangkai sebagai pulldown pada jalur input DIP Switch untuk memastikan kestabilan logika sinyal. 
+
 	Sebuah Power Supply 5V yang bertindak sebagai sumber catu daya bagi seluruh sistem. 
+
 	Kabel jumper berwarna merah (untuk jalur tegangan positif) dan hitam (untuk jalur ground) yang berfungsi untuk mengkoneksikan setiap komponen di atas papan rangkaian. 
 
 Dalam praktiknya, DIP switch digunakan untuk memasukkan nilai biner 4-bit, mulai dari 0000 hingga 1001. Setiap variasi kombinasi saklar tersebut akan diterjemahkan oleh IC CD4511, yang kemudian memicu pengaktifan segmen-segmen LED spesifik (segmen a, b, c, d, e, f, dan g) pada komponen layar 7-segmen. Sebagai bentuk validasi pengujian, dilakukan penyusunan tabel kebenaran. Berdasarkan pengamatan, apabila seluruh saklar (A, B, C, D) berada dalam posisi 0 (logika rendah), maka segmen a, b, c, d, e, dan f akan menyala secara bersamaan, sehingga membentuk tampilan angka "0". Begitu pula apabila saklar A dan D berada pada posisi 1, sementara B dan C pada posisi 0 (kombinasi 1001), maka segmen a, b, c, d, f, dan g akan aktif untuk membentuk angka "9". 
